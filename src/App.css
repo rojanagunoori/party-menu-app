@@ -1,0 +1,130 @@
+/* Search bar */
+.search-bar {
+  width: 100%;
+  max-width: 400px;      /* limits size on large screens */
+  padding: 10px 15px;    /* inner spacing */
+  border-radius: 25px;   /* rounded edges */
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s;
+  margin: 10px;
+ 
+}
+.search-bar {
+  padding-right: 30px; /* space for the icon */
+  background: url('data:image/svg+xml;utf8,<svg fill="gray" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M21.71 20.29l-3.388-3.388A8.963 8.963 0 0019 10a9 9 0 10-9 9 8.963 8.963 0 006.902-3.678l3.388 3.388a1 1 0 001.414-1.414zM4 10a6 6 0 1112 0 6 6 0 01-12 0z"/></svg>') no-repeat right 8px center;
+  background-size: 18px 18px;
+}
+
+
+
+.search-bar:focus {
+  border-color: #ff7f50; /* highlight on focus */
+  box-shadow: 0 0 5px rgba(255,127,80,0.4);
+}
+
+/* Filters container */
+.filters {
+  display: flex;
+  flex-wrap: wrap;        /* wrap on small screens */
+  gap: 10px;              /* space between buttons */
+  margin: 15px 15px;
+}
+
+/* Category buttons */
+.filter-btn {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f0f0;  /* light grey default */
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.filter-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.filter-btn.active {
+  background-color: #ff7f50;  /* highlight color */
+  color: #fff;
+}
+
+.dish-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.dish-header-left h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.dish-header-right {
+  display: flex;
+  gap: 20px;
+}
+
+.slider-toggle {
+  width: 60px;
+  height: 8px;
+  background-color: #eee;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.slider-toggle.active-veg {
+  background-color: #4caf50;
+}
+.slider-toggle.active-non-veg {
+  background-color: #dd442c;
+}
+
+.toggle-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.slider-circle {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  background-size: cover;
+  position: absolute;
+  left: 5px;
+  transition: all 0.3s ease;
+}
+.slider-circle.veg{
+  
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/b/b2/Veg_symbol.svg");
+}
+.slider-circle.non-veg{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/ba/Non_veg_symbol.svg");
+}
+
+
+/* Veg ON */
+.slider-toggle.active-veg .slider-circle {
+  left: auto;
+  right: 5px;
+}
+
+/* Non-Veg ON */
+.slider-toggle.active-non-veg .slider-circle {
+  left: auto;
+  right: 5px;
+}
+.bottom{
+  margin-top: 100px;
+}

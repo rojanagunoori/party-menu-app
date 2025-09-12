@@ -1,0 +1,98 @@
+
+.dish-card {
+    display: flex;
+    align-items: flex-start;
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dish-image {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    object-fit: cover;
+    margin-right: 12px;
+    border-radius: 10px;
+  }
+  
+  .dish-info {
+    flex: 1;
+  }
+  
+  .dish-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .dish-desc {
+    font-size: 13px;
+    color: #555;
+    margin: 4px 0;
+  }
+  
+  /* 🔗 Ingredient link */
+  .ingredient-link {
+    color: #ff7f50;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .image-button-wrapper {
+    position: relative; 
+    display: inline-block; /* shrink-wrap the image */
+  }
+  
+  /* ➕ Add/Remove button */
+  .add-btn,
+  .remove-btn {
+    left: 50%; /* center horizontally */
+  bottom: 0;
+    transform: translate(-50%, 50%);
+    position: absolute;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  
+  .add-btn {
+    background: #4caf50;
+    color: white;
+  }
+  
+  .remove-btn {
+    background: #ff5252;
+    color: white;
+  }
+  /* Cuisine section */
+  .cuisine-group {
+    margin: 20px 0;
+  }
+  
+  .cuisine-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Dish list grid */
+  .dish-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px;
+  }
+  
+
+
+  
