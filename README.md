@@ -1,35 +1,25 @@
 # 🍽️ Party Menu Selection App (TheChefkart Assignment)
 
-![App Preview](public/image.png)
-
-A ReactJS web application where users can browse a categorized menu of dishes, filter them, and select items for a party.
+![App Preview](public/preview.png)
 
 🚀 **Live Demo**: [party-menu-app.surge.sh](https://party-menu-app.surge.sh/)  
 📦 **Repository**: [GitHub Repo](https://github.com/rojanagunoori/party-menu-app.git)
 
 ---
 
-## 📖 Project Overview
-The goal of this assignment is to build a **Party Menu Selection App**.  
-Users can:
-- Browse a categorized menu of dishes
-- Filter them by type or search
-- Add/remove dishes for a party menu
-- View ingredients for each dish in detail
-
----
-
 ## ⚙️ Installation & Setup
 
 ### Clone the Repository
-
+```bash
 git clone https://github.com/rojanagunoori/party-menu-app.git
 cd party-menu-app
-## Install Dependencies
-
+Install Dependencies
+bash
+Copy code
 npm install
 Run Locally
-
+bash
+Copy code
 npm start
 The app will open at 👉 http://localhost:3000
 
@@ -53,15 +43,18 @@ This project is deployed using Surge.
 Steps:
 Install Surge globally (only once):
 
-
+bash
+Copy code
 npm install --global surge
 Build the app for production:
 
-
+bash
+Copy code
 npm run build
 Deploy with Surge:
 
-
+bash
+Copy code
 surge ./build party-menu-app.surge.sh
 Open the live app at 👉 party-menu-app.surge.sh
 
@@ -119,11 +112,6 @@ Copy code
 
 ---
 
-👉 Now your README will show **clear sections with headings** (`##` and `###`) instead of looking like plain text.  
+👉 If you replace your current README with this cleaned-up version, all **links will be clickable**, code will render in blocks, and GitHub will format it properly.
 
-Do you want me to also **add emoji icons** (like ✅, ⚡, 🏗️) to each heading so it looks more modern and eye-catching?
-
-
-
-
-Ask ChatGPT
+Do you want me to also add **emoji icons** (✅, ⚡, 📦, 🎨) to each section heading to make it look modern and attractive?
