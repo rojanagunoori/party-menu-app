@@ -1,6 +1,6 @@
 # 🍽️ Party Menu Selection App (TheChefkart Assignment)
 
-![App Preview](public/preview.png)
+![App Preview](public/image.png)
 
 🚀 **Live Demo**: [party-menu-app.surge.sh](https://party-menu-app.surge.sh/)  
 📦 **Repository**: [GitHub Repo](https://github.com/rojanagunoori/party-menu-app.git)
@@ -14,12 +14,10 @@
 git clone https://github.com/rojanagunoori/party-menu-app.git
 cd party-menu-app
 Install Dependencies
-bash
-Copy code
+
 npm install
 Run Locally
-bash
-Copy code
+
 npm start
 The app will open at 👉 http://localhost:3000
 
@@ -43,24 +41,21 @@ This project is deployed using Surge.
 Steps:
 Install Surge globally (only once):
 
-bash
-Copy code
+
 npm install --global surge
 Build the app for production:
 
-bash
-Copy code
+
 npm run build
 Deploy with Surge:
 
-bash
-Copy code
+
 surge ./build party-menu-app.surge.sh
 Open the live app at 👉 party-menu-app.surge.sh
 
 🎨 Styling (Example CSS)
-css
-Copy code
+
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
