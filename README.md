@@ -13,17 +13,20 @@
 ```bash
 git clone https://github.com/rojanagunoori/party-menu-app.git
 cd party-menu-app
-Install Dependencies
-
+```
+### Install Dependencies
+```bash
 npm install
-Run Locally
-
+```
+### Run Locally
+```bash
 npm start
+```
 The app will open at 👉 http://localhost:3000
 
-🏗️ Project Structure
-text
-Copy code
+----
+## 🏗️ Project Structure
+```bash
 party-menu-app/
 └── src/
     ├── components/
@@ -35,27 +38,33 @@ party-menu-app/
     │   └── mockDishes.js
     ├── App.css
     └── App.js
-📦 Deployment (Surge.sh)
+```
+
+---
+
+## 📦 Deployment (Surge.sh)
 This project is deployed using Surge.
 
-Steps:
-Install Surge globally (only once):
+### Steps:
+#### Install Surge globally (only once):
 
-
+```bash
 npm install --global surge
-Build the app for production:
-
-
+```
+#### Build the app for production:
+```bash
 npm run build
-Deploy with Surge:
-
-
+```
+#### Deploy with Surge:
+```bash
 surge ./build party-menu-app.surge.sh
 Open the live app at 👉 party-menu-app.surge.sh
+```
+---
 
-🎨 Styling (Example CSS)
+## 🎨 Styling (Example CSS)
 
-
+```bash
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -69,41 +78,49 @@ body {
   background-color: white;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-🔄 App Flow
-User selects a category → Updates selectedCategory in state
+```
+---
 
-App filters dishes → Passes filteredDishes to DishList
+## 🔄 App Flow
+- User selects a category → Updates selectedCategory in state
 
-User searches or toggles Veg-only → State updates & UI re-renders
+- App filters dishes → Passes filteredDishes to DishList
 
-Add/Remove dish → Updates selectedDishes state
+- User searches or toggles Veg-only → State updates & UI re-renders
 
-Ingredients → Opens modal with detailed dish info
+- Add/Remove dish → Updates selectedDishes state
 
-✅ Deliverables
-Public GitHub repository with full ReactJS code
+- Ingredients → Opens modal with detailed dish info
 
-Functional web app with:
+---
 
-Dish listing & categories
+## ✅ Deliverables
+- Public GitHub repository with full ReactJS code
 
-Search + Veg/Non-Veg filter
+- Functional web app with:
 
-Add/Remove selection
+- Dish listing & categories
 
-Ingredient modal
+- Search + Veg/Non-Veg filter
 
-Deployment live on Surge.sh
+- Add/Remove selection
 
-📸 Screenshots
-(Add your app screenshots here)
+- Ingredient modal
 
-👨‍💻 Author
-Rojan Agunoori
-🔗 GitHub
+- Deployment live on Surge.sh
 
-pgsql
-Copy code
+---
+
+## 🙋‍♀️ Author / Contact
+
+**Nagunoori Roja**  
+
+- 📧 Email: [nagunooriroja@gmail.com](mailto:nagunooriroja@gmail.com)  
+- 🌐 GitHub: [https://github.com/rojanagunoori](https://github.com/rojanagunoori)  
+- 🌐 LinkedIn: [https://www.linkedin.com/in/nagunoori-roja-51b936267/](https://www.linkedin.com/in/nagunoori-roja-51b936267/)  
+- 🌐 Personal Portfolio: [portfolio-roja.netlify.app](https://portfolio-roja.netlify.app/)  
+- 🌐 LeetCode: [https://leetcode.com/u/dSdsi6XkI8/](https://leetcode.com/u/dSdsi6XkI8/)  
+- 🌐 Kaggle: [https://www.kaggle.com/nagunooriroja](https://www.kaggle.com/nagunooriroja)  
 
 ---
 
